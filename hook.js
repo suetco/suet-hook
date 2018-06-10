@@ -1,5 +1,3 @@
-// Called from Google Cloud HTTP function
-
 const dbClient = require('mongodb').MongoClient
   , crypto = require('crypto')
   , request = require('request')
